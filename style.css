@@ -1,0 +1,175 @@
+body{
+    background-color:#F1EFEF;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 600px;
+}
+
+
+header{
+    background-color: white;
+    color: black;
+    
+}
+
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.links a{
+    text-decoration: none;
+    display: flex;
+    color: black;
+}
+
+.links li{
+    padding-left: 25px;
+    padding-right: 25px;
+    }
+
+.logo{
+    font-size: 25px;
+    color: #016A70;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 360px;
+    margin-left: 220px
+}
+
+select{
+    width: 70px;
+    height: 45px;
+    margin-left:95px; 
+    font-size: 17px;
+    background-color: lightgrey;
+}
+
+input{
+    width: 450px;
+    height: 40px;
+    font-size: 17px;
+}
+
+.btn1{
+    width: 90px;
+    height: 45px;
+    background-color:brown;
+    font-size: 17px;
+    border: 1px solid black;
+}
+
+.img1{
+    width: 300px;
+    top:80%;
+    position: absolute;
+    animation: run;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+.img2{
+   width: 240px;
+}
+
+.box1{
+    margin: 140px 50px 0px 50px ; 
+    background-color:white;
+    align-items: center;
+}
+
+h2{
+    font-size: 30px;
+    margin-left: 70px;
+    padding-top: 40px;
+}
+.cars{
+    justify-content: space-evenly;
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.car1{
+    padding: 0px 20px 0px 20px;
+}
+
+.btn2{
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid brown ;
+    color: brown;
+}
+
+.box2{
+    margin-top: 80px; 
+    background-color:white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.car1 span{
+    font-size: 13px;
+    color: lightslategray;
+}
+
+.box3{
+    margin-top: 80px; 
+    background-color:white;
+    margin-left: 50px;
+    margin-right: 50px;  
+}
+
+.brands{
+    justify-content: space-evenly;
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.brand-img img{
+    width: 160px;
+    padding: 0px 20px 0px 20px;
+    border: 2px solid #fff;
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: #7D7C7C;
+    display: flex;
+    color:black;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+h3{
+    padding-left: 40px;
+}
+
+
+li{
+    list-style: none;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(206, 196, 196);
+}
+
